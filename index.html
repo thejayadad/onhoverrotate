@@ -14,9 +14,19 @@
             flex-direction: column;
             background-color: black;
         }
-     
+        .rotate{
+            width: 100px;
+            height: 100px;
+            background: #ccc;
+            transition: all .8s ease-in-out;
+            border-radius: 50%;
+        }
+        .rotate:hover {
+            transform: rotate(360deg);
+        }
     </style>
 </head>
 <body>
+    <div class="rotate"></div>
 </body>
 </html>
